@@ -1,0 +1,14 @@
+{
+  "name": "wei-format",
+  "version": "0.1.0",
+  "description": "Parse, convert and format wei/gwei/ether amounts exactly",
+  "type": "module",
+  "bin": { "wei-format": "./src/cli.mjs" },
+  "exports": "./src/wei.mjs",
+  "files": ["src"],
+  "engines": { "node": ">=18" },
+  "scripts": { "start": "node src/cli.mjs", "test": "node --test test/" },
+  "keywords": ["wei", "gwei", "ethereum", "units", "bigint"],
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/yuniyunanie250-lgtm/wei-format.git" }
+}
